@@ -19,6 +19,7 @@
 }
 
 .section__content h5 {
+  cursor: pointer;
   color: red;
   font-weight: 700;
   display: flex;

@@ -1,0 +1,29 @@
+.section-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 280px;
+  margin-top: 50px;
+  gap: 180px;
+}
+
+.section-2 h2 {
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.section-2 p {
+  color: grey;
+  width: 430px;
+  font-size: 15px;
+  border-left: 1.8px solid grey;
+  padding-left: 25px;
+}
+
+.btn-primary {
+  width: 70px;
+}

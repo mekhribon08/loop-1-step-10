@@ -5,6 +5,13 @@
   margin-left: 280px;
 }
 
+@media (max-width: 800px) {
+  .section-1 {
+    margin-left: 70px;
+    font-size: 12px;
+  }
+}
+
 .section__content {
   width: 280px;
   line-height: 25px;

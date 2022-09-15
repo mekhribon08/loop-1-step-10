@@ -6,9 +6,21 @@
   gap: 180px;
 }
 
+@media (max-width: 800px) {
+  .section-2 {
+    margin-left: 65px;
+  }
+}
+
 .section-2 h2 {
   font-size: 28px;
   font-weight: 700px;
+}
+
+@media (max-width: 800px) {
+  .section-2 h2 {
+    font-size: 20px;
+  }
 }
 
 h2 {
@@ -22,6 +34,20 @@ h2 {
   font-size: 15px;
   border-left: 1.8px solid grey;
   padding-left: 25px;
+}
+
+@media (max-width: 800px) {
+  .section-2 p {
+    width: 300px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-2 img {
+    width: 200px;
+    margin-left: -50px;
+  }
 }
 
 .btn-primary {

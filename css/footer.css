@@ -7,9 +7,22 @@
   height: 800px;
 }
 
+@media (max-width: 800px) {
+  .footer {
+    height: 600px;
+  }
+}
+
 .footer__inner {
   margin-left: 630px;
   padding-top: 280px;
+}
+
+@media (max-width: 800px) {
+  .footer__inner {
+    margin-left: 320px;
+    padding-top: 200px;
+  }
 }
 
 .footer__inner h2 {
